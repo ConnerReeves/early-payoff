@@ -1,5 +1,5 @@
-import * as counter from "./counter";
+import * as navigation from "./navigation";
 
 export const reducers = {
-  [counter.namespace]: counter.reducer
+  [navigation.namespace]: navigation.reducer
 };
